@@ -1,0 +1,4 @@
+Diffuse=mn_rpbf_00_d_loc_int
+Normal=mn_rpbf_00_n_loc_int
+Specular=mn_rpbf_00_s_loc_int
+Other[0]=mn_rpbf_00_cm_loc_int

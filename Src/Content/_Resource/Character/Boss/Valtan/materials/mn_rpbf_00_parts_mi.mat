@@ -1,0 +1,5 @@
+Diffuse=mn_rpbf_00_parts_d_loc_int
+Normal=mn_rpbf_00_parts_n
+Specular=mn_rpbf_00_parts_s
+Emissive=mn_rpbf_00_parts_em_loc_int
+Other[0]=mn_rpbf_00_parts_m
