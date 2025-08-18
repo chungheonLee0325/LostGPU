@@ -1,53 +1,103 @@
-# LostGPU — 블루프린트 100%로 구현한 3D 액션 RPG
+# LostGPU — 블루프린트 100%로 구현한 3D 액션 RPG(UE, Blueprint, Chaos Destructure)
+> [프로젝트를 한 줄로 임팩트 있게 요약]
 
-![프로젝트 배너 이미지](Docs/LostGPU_Overview.png)
+### 💡 프로젝트 탐색 가이드
 
-**Unreal Engine 5 학습 1개월 만에 100% 블루프린트만으로 3D 액션 RPG의 핵심 전투 시스템을 구현**한 프로젝트입니다. FSM, 데이터 주도 설계, 그리고 언리얼 엔진의 주요 기능들을 적극적으로 활용하여 **아이디어를 빠르게 프로토타입으로 완성하는 역량을 증명**합니다.
+이 README는 프로젝트의 핵심을 요약한 '쇼케이스'입니다. 전체적인 개요를 파악한 뒤, 더 깊은 기술적 내용이 궁금하다면 Tech Docs를 확인해 보세요.
+
+| 문서 | 역할 | 내용 |
+| :--- | :--- | :--- |
+| 📋 [Project Gallery](https://github.com/chungheonLee0325) | Root (전체 개요) | 모든 프로젝트 목록, 핵심 역량 요약 |
+| 📁 **Repository README** | **What & Why (개요)** | 프로젝트 목표, 데모 영상, 핵심 기능, 아키텍처 |
+| 🔗 [Tech Docs](https://github.com/chungheonLee0325/LostGPU/wiki) | How (상세 구현) | 코드 분석, 설계 과정, 기술 회고, 트러블슈팅 |
+
+<p align="center">
+<a href="https://github.com/chungheonLee0325"><strong>📋 프로젝트 갤러리</strong></a>
+  ❖  
+<a href="#-주요-기능-key-features"><strong>📁 README (현재 페이지)</strong></a>
+  ❖  
+<a href="https://github.com/chungheonLee0325/LostGPU/wiki"><strong>🔗 Tech Docs</strong></a>
+</p>
+
+## ▶️ 데모 영상 (Gameplay Demo)
+ <p align="center">
+ <a href="https://youtu.be/[VIDEO_ID]">
+ <img src="https://github.com/chungheonLee0325/LostGPU/raw/main/Doc/Gifs/LostGPU_Overview.gif" alt="프로젝트 데모 GIF" width="100%">
+ </a>
+ </p>
+ <p align="center">
+ <a href="https://youtu.be/[VIDEO_ID]"><b>▶ YouTube에서 고화질로 시청하기</b></a>
+ </p>
+
+## ✨ 프로젝트 개요 (Overview)
+[프로젝트의 What & Why를 설명하는 문단 - 무엇을 만들었고 왜 만들었는지, 어떤 문제를 해결하려 했는지에 대한 내용을 기입해주세요.]
+
+### 📚 목차 (Table of Contents)
+ 1. [주요 기능](#-주요-기능-key-features)
+ 2. [아키텍처](#-아키텍처-architecture)
+ 3. [기술 스택](#-기술-스택-tech-stack)
+ 4. [프로젝트 구조](#-프로젝트-구조)
+ 5. [설치 및 조작법](#-설치-및-조작법-setup--controls)
+
+## 🚀 주요 기능 (Key Features)
+
+### [시스템명]
+- [구체적인 기능과 구현 내용, 그리고 사용자 경험에 대해 설명해주세요.]
+
+### [시스템명]
+- [구체적인 기능과 구현 내용, 그리고 사용자 경험에 대해 설명해주세요.]
 
 ---
+## 🏛️ 아키텍처 (Architecture)
 
-### 📅 개발 기간
-**총 개발 기간:** 2024.12.02 ~ 2024.12.30 (약 1개월)
+### 전체 구조
+- [시스템 간의 관계, 핵심 설계 원칙, 적용된 주요 디자인 패턴에 대해 설명해주세요.]
 
-### 🛠️ 사용 기술
-* **Game Engine:** Unreal Engine 5.5
-* **Scripting:** Blueprint (100%)
-* **Core Systems:** Data Table, Finite State Machine (FSM), Chaos Destruction
+### 기술적 특징
+- [설계의 장점(확장성, 유지보수성 등)과 성능 최적화 포인트에 대해 설명해주세요.]
 
----
-
-### 🎬 주요 기능 및 플레이 영상
-
-[![플레이 영상](https://via.placeholder.com/800x450.png?text=Click+to+Play+Video)](https_your_youtube_link_here)
-*👆 위 이미지를 클릭하면 유튜브 영상으로 이동합니다.
+> 📖 **더 자세한 구현 내용**: [Tech Docs](https://github.com/chungheonLee0325/LostGPU/wiki)에서 상세 다이어그램과 코드 분석을 확인하세요.
 
 ---
+## 🛠️ 기술 스택 (Tech Stack)
 
-### ✨ 상세 구현 내용
+| 분야 | 기술 | 설명 |
+|:---|:---|:---|
+| **게임 엔진** | Unreal Engine 5.3 | 메인 개발 환경 |
+| **프로그래밍** | C++, Blueprint | [각 언어의 사용 비중이나 주요 담당 역할에 대해 설명해주세요.] |
+| **핵심 시스템** | Gameplay Ability System (GAS) | 캐릭터 어빌리티, 스탯, 상태 효과 등 |
+| **[기타 분야]** | [사용한 기술] | [기술에 대한 설명] |
 
-#### 1. 플레이어 시스템
-* **FSM 기반 상태 관리:** 스킬 사용, 피격, 대쉬 등 플레이어의 여러 상태를 FSM으로 관리하여, 스킬 시전 중 다른 스킬 사용을 제한하고 대쉬를 통한 스킬 캔슬이 가능하도록 구현했습니다.
-* **상태 이상 시스템:** 보스의 공격에 의해 스턴, 넘어짐 등 상태 이상에 걸릴 수 있으며, 해당 상태에서는 이동 및 공격이 제한되고 시전중인 스킬을 캔슬합니다.
+---
+## 📁 프로젝트 구조
 
-#### 2. 보스 시스템 (발탄)
-* **FSM 기반 AI:** FSM을 통해 보스의 행동 패턴(대기, 추적, 공격)을 제어했습니다.
-* **스킬 룰렛 시스템:** 확률과 사정거리를 기반으로 다양한 스킬 패턴을 동적으로 선택하여 사용하여 예측 불가능한 전투 경험을 제공합니다.
+LostGPU/
+├── Content/
+├── Doc/
+│   └── Gifs/
+│       └── LostGPU_Overview.gif
+├── Saved/
+├── Script/
+└── Source/
+└── LostGPU/
+├── AI/
+├── Character/
+├── Core/
+├── GAS/
+├── Item/
+├── Projectile/
+└── UI/
 
-#### 3. 언리얼 엔진 기능을 활용한 완성도 높은 연출
-* **완성형 레이드 루프:** 보스 선택부터 전투, 승패 판정까지 이어지는 하나의 완전한 콘텐츠 사이클을 완성했습니다.
-* **시네마틱 컷신:** 언리얼 엔진의 **시퀀서(Sequencer)** 기능을 활용하여 보스룸 입장 시 재생되는 동적인 등장 컷신을 구현하여 전투의 몰입감을 높였습니다.
-* **지형 파괴:** 언리얼 엔진의 카오스 디스트럭션(Chaos Destruction) 기능을 활용하여 보스의 특정 패턴 시전 시 지형이 파괴되는 역동적인 연출을 구현했습니다.
-* **갑옷 파괴 시스템:**
-    * 보스의 갑옷을 본체와 분리된 **별도의 스켈레탈 메시 컴포넌트**로 구성했습니다.
-    * 평상시에는 **'Set Leader Pose Component'** 기능을 사용하여 갑옷 메시가 본체의 움직임과 애니메이션을 완벽하게 따라 하도록 만들었습니다.
-    * 플레이어의 특정 스킬이 누적되어 **파괴 스택**이 가득 차면, 따라다니던 갑옷 컴포넌트만 숨기거나 파괴하여 실제 갑옷이 부서져 사라지는 연출을 구현했습니다.
 
-#### 4. 확장성을 고려한 데이터 주도 설계
+---
+## ⚙️ 설치 및 조작법 (Setup & Controls)
 
-📊 **스킬 데이터 테이블 구조**
+### 설치 & 실행
+1. **요구사항**: [프로젝트 실행에 필요한 프로그램과 버전(예: Unreal Engine 5.3)을 알려주세요.]
+2. **빌드**: [빌드 과정을 단계별로 설명해주세요.]
+3. **실행**: [실행 방법을 설명해주세요.]
 
-![데이터 테이블 스크린샷](Docs/LostGPU_SkillDataTable.png)
-
-* **공용 스킬 시스템:** 플레이어와 보스가 상속받아 사용하는 `Base Skill Class`를 설계하여 재사용성을 높였습니다.
-* **데이터 테이블 활용:** 스킬의 데미지, 쿨타임, 사거리, 효과(즉발형/장판형/시전형) 등 모든 정보를 데이터 테이블로 분리하여, 코드 수정 없이 신규 스킬 추가 및 밸런스 조정이 용이한 유연한 구조를 구축했습니다.
-
+### 주요 조작키
+* **이동:** [키]
+* **공격/상호작용:** [키]
+* **[기타 조작]**: [키]
