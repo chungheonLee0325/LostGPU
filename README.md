@@ -9,11 +9,11 @@
 
 | 문서 | 역할 | 내용 |
 | :--- | :--- | :--- |
-| 📋 [Project Gallery](https://github.com/chungheonLee0325) | Root (전체 개요) | 모든 프로젝트 목록, 핵심 역량 요약 |
+| 📋 [Project Gallery]([https://github.com/chungheonLee0325](https://github.com/chungheonLee0325#-%EC%A3%BC%EC%9A%94-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-main-projects)) | Root (전체 개요) | 모든 프로젝트 목록, 핵심 역량 요약 |
 | 📁 **Repository README** | **What & Why (개요)** | 프로젝트 목표, 데모 영상, 핵심 기능, 아키텍처 |
 
 <p align="center">
-<a href="https://github.com/chungheonLee0325"><strong>📋 프로젝트 갤러리</strong></a>
+<a href="https://github.com/chungheonLee0325#-%EC%A3%BC%EC%9A%94-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-main-projects"><strong>📋 프로젝트 갤러리</strong></a>
   ❖  
 <a href="#-주요-기능-key-features"><strong>📁 README (현재 페이지)</strong></a>
 </p>
