@@ -21,11 +21,11 @@
 ## ▶️ 데모 영상 (Gameplay Demo)
  <p align="center">
  <a href="https://youtu.be/[VIDEO_ID]">
- <img src="https://github.com/chungheonLee0325/LostGPU/raw/main/Doc/Gifs/LostGPU_Overview.gif" alt="프로젝트 데모 GIF" width="100%">
+ <img src="https://github.com/chungheonLee0325/LostGPU/blob/main/Docs/LostGPU.gif" alt="프로젝트 데모 GIF" width="100%">
  </a>
  </p>
  <p align="center">
- <a href="https://youtu.be/[VIDEO_ID]"><b>▶ YouTube에서 고화질로 시청하기</b></a>
+ <a href="https://youtu.be/mgP-u5mvh1c"><b>▶ YouTube에서 고화질로 시청하기</b></a>
  </p>
 
 ## ✨ 프로젝트 개요 (Overview)
